@@ -1,0 +1,39 @@
+{
+  "name": "romiku-media-production",
+  "version": "2.0.0",
+  "description": "Romiku Media - Premium Influencer Marketing Agency (Production Ready)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js",
+    "test": "jest --coverage",
+    "seed": "node scripts/seed.js",
+    "backup": "node scripts/backup.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.6",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "influencer-marketing",
+    "creator-management",
+    "brand-partnerships",
+    "ugc-campaigns",
+    "social-media"
+  ],
+  "author": "Romiku Media Team",
+  "license": "MIT"
+}
